@@ -6,6 +6,6 @@
 
 ## Build
 
-        docker run -it -v ./dist:/keeweb/dist keeweb
         docker build -t keeweb .
+        docker run -it -v ./dist:/keeweb/dist keeweb
         sudo chmod +x dist/desktop/KeeWeb-*.AppImage
